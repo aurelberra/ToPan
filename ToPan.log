@@ -1,5 +1,5 @@
 
-Listening on http://127.0.0.1:4869
+Listening on http://127.0.0.1:7955
 Warning: Error in <-: 'names' attribute [2] must be the same length as the vector [1]
 Stack trace (innermost first):
     80: colnames<-
@@ -16,4 +16,42 @@ Stack trace (innermost first):
     77: origRenderFunc
     76: output$catalogue
      1: runApp
+Warning: Error in <-: 'names' attribute [2] must be the same length as the vector [1]
+Stack trace (innermost first):
+    80: colnames<-
+    79: renderDataTable [/Users/aurel/Documents/github/ToPan/app.R#414]
+    78: func
+    77: origRenderFunc
+    76: output$catalogue
+     1: runApp
+Warning in dir.create(out.dir) :
+  './www/data/tlg4089/tlg003/opp-grc1_MF250_K20_alph002_eta002_I500_S73_vis' already exists
+Warning in write.table(theta, append = T, file = CTMfilename, row.names = F,  :
+  appending column names to file
+Warning in write.table(phi, append = T, file = CTMfilename, quote = F, sep = "#") :
+  appending column names to file
+Warning in dir.create(paste(folder, "_tab", sep = ""), recursive = TRUE) :
+  './www/data/tlg4089/tlg003/opp-grc1_MF250_K20_alph002_eta002_I500_S73_tab' already exists
+Warning in dir.create(visfolder, recursive = TRUE) :
+  './www/data/tlg4089/tlg003/opp-grc1_MF250_K20_alph002_eta002_I500_S73_vis' already exists
+Warning in dir.create(ldafolder, recursive = TRUE) :
+  './www/data/tlg4089/tlg003/opp-grc1_MF250_K20_alph002_eta002_I500_S73_mod' already exists
+Warning in dir.create(out.dir) :
+  './www/data/tlg4089/tlg003/opp-grc1_MF250_K20_alph002_eta002_I500_S73_vis' already exists
+Warning in write.table(theta, append = T, file = CTMfilename, row.names = F,  :
+  appending column names to file
+Warning in write.table(phi, append = T, file = CTMfilename, quote = F, sep = "#") :
+  appending column names to file
+Warning in dir.create(paste(folder, "_tab", sep = ""), recursive = TRUE) :
+  './www/data/tlg4089/tlg003/opp-grc1_MF250_K20_alph002_eta002_I500_S73_tab' already exists
+Warning in dir.create(visfolder, recursive = TRUE) :
+  './www/data/tlg4089/tlg003/opp-grc1_MF250_K20_alph002_eta002_I500_S73_vis' already exists
+Warning in dir.create(ldafolder, recursive = TRUE) :
+  './www/data/tlg4089/tlg003/opp-grc1_MF250_K20_alph002_eta002_I500_S73_mod' already exists
+Warning in dir.create(out.dir) :
+  './www/data/tlg4089/tlg003/opp-grc1_MF250_K20_alph002_eta002_I500_S73_vis' already exists
+Warning in write.table(theta, append = T, file = CTMfilename, row.names = F,  :
+  appending column names to file
+Warning in write.table(phi, append = T, file = CTMfilename, quote = F, sep = "#") :
+  appending column names to file
 
